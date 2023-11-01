@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SnakeBody
+comment1.params=
+comment1.target=SnakeBody()
+comment2.params=x\ y
+comment2.target=void\ extend(int,\ int)
+numComments=3

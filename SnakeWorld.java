@@ -1,7 +1,6 @@
 import greenfoot.*;
 
-public class SnakeWorld extends World
-{
+public class SnakeWorld extends World {
     public SnakeWorld() {    
         super(600, 400, 1); 
         prepare();
@@ -9,7 +8,7 @@ public class SnakeWorld extends World
 
     private void prepare() {
         Snake snake = new Snake();
-        addObject(snake, getWidth()/2, getHeight()/2);
+        addObject(snake, getWidth() / 2, getHeight() / 2);
         Apple apple = new Apple();
         addObject(apple, Greenfoot.getRandomNumber(getWidth()), Greenfoot.getRandomNumber(getHeight()));
         Obstacle obstacle1 = new Obstacle();

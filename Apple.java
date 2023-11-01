@@ -1,8 +1,9 @@
 import greenfoot.*;
 
-public class Apple extends Actor
-{
-    public void addedToWorld(World world) {
-        setLocation(Greenfoot.getRandomNumber(world.getWidth()), Greenfoot.getRandomNumber(world.getHeight()));
+public class Apple extends Actor {
+    public Apple() {
+        // Ganti "path_to_image" dengan path sebenarnya dari gambar apel Anda
+        GreenfootImage appleImage = new GreenfootImage("food.png");
+        setImage(appleImage);
     }
 }

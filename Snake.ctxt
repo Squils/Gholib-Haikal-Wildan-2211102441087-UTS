@@ -1,9 +1,15 @@
 #BlueJ class context
 comment0.target=Snake
 comment1.params=
-comment1.target=void\ act()
-comment2.params=
-comment2.target=void\ checkApple()
+comment1.target=Snake()
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
 comment3.params=
-comment3.target=void\ checkCollision()
-numComments=4
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ checkApple()
+comment5.params=
+comment5.target=void\ checkCollision()
+comment6.params=
+comment6.target=void\ extend()
+numComments=7
